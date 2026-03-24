@@ -11,7 +11,7 @@ const App = () => {
   const [data , setData] = useState(null);
   const [loading , setLoading] = useState(false);
 
-  const ai = new GoogleGenAI({ apiKey:"API-KEY"}); // INSERT API KEY
+  const ai = new GoogleGenAI({ apiKey:"AIzaSyAYYamwRlfezaUzGRW2UKZGlQ54zQ-BhNI"}); // INSERT API KEY
 
   async function generateBlogContent() {
     setLoading(true);
